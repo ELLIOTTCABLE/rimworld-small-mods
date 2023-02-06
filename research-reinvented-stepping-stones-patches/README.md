@@ -10,5 +10,11 @@ It modifies some technologies and buildings from the following *other* mods to d
 
  - [ReGrowth: Core](https://steamcommunity.com/workshop/filedetails/?id=2260097569)
 
+ Planned:
+
+- Some subset of [Vanilla Expanded](https://steamcommunity.com/workshop/filedetails/?id=1884025115) mods
+- [Alpha Biomes](https://steamcommunity.com/sharedfiles/filedetails/?id=1841354677)
+- [Dubs Bad Hygiene](https://steamcommunity.com/sharedfiles/filedetails/?id=836308268)
+
    [@PeteTimesSix's]: <https://github.com/PeteTimesSix>
    [Research Reinvented: Stepping Stones]: <https://steamcommunity.com/sharedfiles/filedetails/?id=2868389782>
