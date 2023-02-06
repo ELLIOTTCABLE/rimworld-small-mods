@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+   <Operation Class="XmlExtensions.PatchOperationSafeAdd">
+      <xpath>Defs/ResearchProjectDef[defName = "WFFT_FishTrap"]</xpath>
+      <safetyDepth>1</safetyDepth>
+      <value>
+         <prerequisites>
+            <li>RR_Agriculture</li>
+         </prerequisites>
+      </value>
+   </Operation>
+
+</Patch>
