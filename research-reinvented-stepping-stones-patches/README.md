@@ -11,6 +11,7 @@ It modifies some technologies and buildings from the following *other* mods to d
  - [Fish Traps](https://steamcommunity.com/sharedfiles/filedetails/?id=2594468074)
  - [ReGrowth: Core](https://steamcommunity.com/workshop/filedetails/?id=2260097569)
  - [Insulation (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2196454890)
+ - [Simple Utilities: Wall](https://steamcommunity.com/sharedfiles/filedetails/?id=2565545335)
 
  Planned:
 

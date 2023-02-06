@@ -107,7 +107,7 @@ Vanilla Hair Expanded:
 [ ] building "Linked doormat"
 
 Simple Utilites: Wall
-[ ] building "Fencepost torch"
+[x] building "Fencepost torch"
 
 Simple Utilites: Ceiling
 [ ] building "Mounted gloomlight"

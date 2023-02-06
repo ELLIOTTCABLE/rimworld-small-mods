@@ -5,5 +5,6 @@
       <li IfModActive="regrowth.botr.core">Common/ModSpecific/regrowth.botr.core</li>
       <li IfModActive="warlocksforge.fishtraps">Common/ModSpecific/warlocksforge.fishtraps</li>
       <li IfModActive="mlie.insulation">Common/ModSpecific/mlie.insulation</li>
+      <li IfModActive="Owlchemist.WallUtilities">Common/ModSpecific/Owlchemist.WallUtilities</li>
    </v1.4>
 </loadFolders>

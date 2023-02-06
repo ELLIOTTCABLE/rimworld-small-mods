@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+   <!-- Neolithic -->
+
+   <!-- TODO: Vanilla torches, as well as this -->
+   <!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd">
+      <xpath>Defs/ThingDef[defName = "Owl_Fencepost_TorchLamp"]</xpath>
+      <safetyDepth>1</safetyDepth>
+      <value>
+         <researchPrerequisites>
+            ...
+         </researchPrerequisites>
+      </value>
+   </Operation> -->
+
+   <!-- Industrial -->
+
+   <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+      <xpath>Defs/ThingDef[defName = "Owl_Fencepost_Lamp" or defName = "Owl_WallLight"]</xpath>
+      <value>
+         <researchPrerequisites>
+            <!-- Replacing: "Electricity", renamed "Circuitry" -->
+            <li>RR_ElectricityBasics</li>
+         </researchPrerequisites>
+      </value>
+   </Operation>
+
+   <Operation Class="XmlExtensions.PatchOperationSafeAdd">
+      <xpath>Defs/ThingDef[defName = "Owl_Heater"]</xpath>
+      <safetyDepth>1</safetyDepth>
+      <value>
+         <researchPrerequisites>
+            <li>RR_HeatingElements</li>
+         </researchPrerequisites>
+      </value>
+   </Operation>
+
+</Patch>
