@@ -12,6 +12,7 @@ It modifies some technologies and buildings from the following *other* mods to d
  - [ReGrowth: Core](https://steamcommunity.com/workshop/filedetails/?id=2260097569)
  - [Insulation (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2196454890)
  - [Simple Utilities: Wall](https://steamcommunity.com/sharedfiles/filedetails/?id=2565545335)
+ - [Simple Utilities: Ceiling](https://steamcommunity.com/sharedfiles/filedetails/?id=2571003732)
 
  Planned:
 

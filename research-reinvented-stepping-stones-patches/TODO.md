@@ -110,7 +110,7 @@ Simple Utilites: Wall
 [x] building "Fencepost torch"
 
 Simple Utilites: Ceiling
-[ ] building "Mounted gloomlight"
+[x] building "Mounted gloomlight"
 
 Alpha Biomes:
 [ ] building "Exotic wall"

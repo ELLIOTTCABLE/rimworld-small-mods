@@ -6,5 +6,6 @@
       <li IfModActive="warlocksforge.fishtraps">Common/ModSpecific/warlocksforge.fishtraps</li>
       <li IfModActive="Mlie.Insulation">Common/ModSpecific/Mlie.Insulation</li>
       <li IfModActive="Owlchemist.WallUtilities">Common/ModSpecific/Owlchemist.WallUtilities</li>
+      <li IfModActive="Owlchemist.CeilingUtilities">Common/ModSpecific/Owlchemist.CeilingUtilities</li>
    </v1.4>
 </loadFolders>

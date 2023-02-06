@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+   <!-- Industrial -->
+
+   <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+      <xpath>Defs/ThingDef[defName = "Owl_GloomCeilingLight"]</xpath>
+      <value>
+         <researchPrerequisites>
+            <!-- Adding: "Electricity" -->
+            <li>RR_ElectricityBasics</li>
+         </researchPrerequisites>
+      </value>
+   </Operation>
+
+</Patch>
