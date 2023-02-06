@@ -2,6 +2,7 @@
 <loadFolders>
    <v1.4>
       <li>Common</li>
+      <li IfModActive="OskarPotocki.VFE.Classical">Common/ModSpecific/OskarPotocki.VFE.Classical</li>
       <li IfModActive="VanillaExpanded.VFEArchitect">Common/ModSpecific/VanillaExpanded.VFEArchitect</li>
       <li IfModActive="ReGrowth.BOTR.Core">Common/ModSpecific/ReGrowth.BOTR.Core</li>
       <li IfModActive="warlocksforge.fishtraps">Common/ModSpecific/warlocksforge.fishtraps</li>

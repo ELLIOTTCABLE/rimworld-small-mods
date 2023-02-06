@@ -62,23 +62,23 @@ Vanilla Plants Expanded - Succulents:
 
 VFE - Classical:
 [ ] building "Tent", change to "Structures"
-[ ] neolithic tech "Togas" -> Simple apparel
-[ ] neolithic tech "Temperature control" -> Simple furniture
-[ ] neolithic tech "Meat drying" -> Food prep
-[ ] neolithic tech "Mosaics" -> Structures
-[ ] neolithic tech "Thermaebath" -> Structures
-[ ] neolithic tech "Drama and comedy" -> Simple furniture
-[ ] neolithic tech "Bronze working" -> Smibuilding
-[ ] neolithic tech "Crafting bench" -> Crafting facilities
-[ ] neolithic tech "Wood-fired crematorium" -> Crafting facilities
-[ ] neolithic tech "Tyrian production" -> Crafting facilities
-[ ] neolithic tech "Road building" -> Smibuilding
-[ ] neolithic tech "Heavy shield making" -> Smibuilding, Simple apparel
-[ ] neolithic tech "Legionary armaments" -> Smibuilding
-[ ] neolithic tech "Legionary armor" -> Smibuilding, Simple apparel
-[ ] neolithic tech "Centurion armor" -> Smibuilding, Simple apparel
-[ ] neolithic tech "Scorpion" -> Smibuilding, Structures
-[ ] neolithic tech "Beacons" -> Structures
+[x] neolithic tech "Togas" -> Simple apparel
+[x] neolithic tech "Temperature control" -> Simple furniture
+[x] neolithic tech "Meat drying" -> Food prep
+[x] neolithic tech "Mosaics" -> Structures
+[x] neolithic tech "Thermaebath" -> Structures
+[x] neolithic tech "Drama and comedy" -> Simple furniture
+[x] neolithic tech "Bronze working" -> Smithing
+[x] neolithic tech "Crafting bench" -> Crafting facilities
+[x] neolithic tech "Wood-fired crematorium" -> Crafting facilities
+[x] neolithic tech "Tyrian production" -> Crafting facilities
+[x] neolithic tech "Road building" -> Smithing
+[x] neolithic tech "Heavy shield making" -> Smithing, Simple apparel
+[x] neolithic tech "Legionary armaments" -> Smithing
+[x] neolithic tech "Legionary armor" -> Smithing, Simple apparel
+[x] neolithic tech "Centurion armor" -> Smithing, Simple apparel
+[x] neolithic tech "Scorpion" -> Smithing, Structures
+[x] neolithic tech "Beacons" -> Structures
 
 VFE - Settlers:
 [ ] building "Wooden post"

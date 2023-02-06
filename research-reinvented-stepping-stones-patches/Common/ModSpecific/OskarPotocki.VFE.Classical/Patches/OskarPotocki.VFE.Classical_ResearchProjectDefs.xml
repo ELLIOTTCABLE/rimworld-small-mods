@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+   <Operation Class="PatchOperationSequence">
+      <operations>
+
+         <li Class="PatchOperationAdd">
+            <xpath>Defs</xpath>
+            <value>
+               <ResearchProjectDef>
+                  <defName>EC_RR_ClassicalThought</defName>
+                  <label>classical thought</label>
+                  <description>A singularly classical way of thinking. (A prerequisite to obtaining the Vanilla Factions Expanded - Classical technologies the 'old fashioned way', instead of winning over senators; be warned that these technologies are very expensive.)</description>
+                  <baseCost>10</baseCost>
+                  <techLevel>Neolithic</techLevel>
+                  <tab>VanillaExpanded</tab>
+                  <tags>
+                     <li>ClassicalStart</li>
+                  </tags>
+                  <prerequisites>
+                     <li>RR_Organization</li>
+                  </prerequisites>
+               </ResearchProjectDef>
+            </value>
+         </li>
+         <!-- /PatchOperationAdd: ResearchProjectDef[defName = "EC_RR_ClassicalThought"] -->
+
+         <li Class="XmlExtensions.ForEach">
+            <!-- Feel free to judge me for my horrible hack. :P -->
+            <xpath>Defs/ResearchProjectDef[defName and contains(concat('^', defName), "^VFEC_")]</xpath>
+            <storeIn>DEF</storeIn>
+            <apply>
+               <Operation Class="XmlExtensions.Conditional">
+                  <xpath>{DEF}/prerequisites</xpath>
+                  <caseFalse>
+                     <Operation Class="XmlExtensions.Log">
+                        <xpath>{DEF}/defName</xpath>
+                     </Operation>
+                     <Operation Class="PatchOperationAdd">
+                        <xpath>{DEF}</xpath>
+                        <value>
+                           <prerequisites>
+                              <li>EC_RR_ClassicalThought</li>
+                           </prerequisites>
+                        </value>
+                     </Operation>
+                     <!-- /PatchOperationAdd: [defName = "VFEArch_LogWall"] -->
+                  </caseFalse>
+               </Operation>
+               <!-- /XmlExtensions.Conditional: [defName = "VFEC_Togas"]/prerequisites -->
+            </apply>
+         </li>
+         <!-- /XmlExtensions.ForEach: ResearchProjectDef[... contains("^VFEC_" ...)] -->
+
+         <li Class="XmlExtensions.PatchOperationSafeAdd">
+            <xpath>Defs/ResearchProjectDef[defName = "VFEC_Togas" or defName = "VFEC_HeavyShieldMaking" or defName = "VFEC_LegionnaireArmor" or defName = "VFEC_CenturionArmor"]</xpath>
+            <safetyDepth>1</safetyDepth>
+            <value>
+               <prerequisites>
+                  <li>RR_BasicApparel</li>
+               </prerequisites>
+            </value>
+         </li>
+
+         <li Class="XmlExtensions.PatchOperationSafeAdd">
+            <xpath>Defs/ResearchProjectDef[defName = "VFEC_TemperatureControl" or defName = "VFEC_DramaAndComedy"]</xpath>
+            <safetyDepth>1</safetyDepth>
+            <value>
+               <prerequisites>
+                  <li>RR_BasicFurniture</li>
+               </prerequisites>
+            </value>
+         </li>
+
+         <li Class="XmlExtensions.PatchOperationSafeAdd">
+            <xpath>Defs/ResearchProjectDef[defName = "VFEC_MeatDrying"]</xpath>
+            <safetyDepth>1</safetyDepth>
+            <value>
+               <prerequisites>
+                  <li>RR_BasicFoodPrep</li>
+               </prerequisites>
+            </value>
+         </li>
+
+         <li Class="XmlExtensions.PatchOperationSafeAdd">
+            <xpath>Defs/ResearchProjectDef[defName = "VFEC_Mosaics" or defName = "VFEC_Thermaebath" or defName = "VFEC_Scorpion" or defName = "VFEC_Beacons"]</xpath>
+            <safetyDepth>1</safetyDepth>
+            <value>
+               <prerequisites>
+                  <li>RR_BasicStructures</li>
+               </prerequisites>
+            </value>
+         </li>
+
+         <li Class="XmlExtensions.PatchOperationSafeAdd">
+            <xpath>Defs/ResearchProjectDef[defName = "VFEC_BronzeWorking" or defName = "VFEC_RoadBuilding" or defName = "VFEC_HeavyShieldMaking" or defName = "VFEC_LegionaryArmaments" or defName = "VFEC_LegionnaireArmor" or defName = "VFEC_CenturionArmor" or defName = "VFEC_Scorpion"]</xpath>
+            <safetyDepth>1</safetyDepth>
+            <value>
+               <prerequisites>
+                  <li>Smithing</li>
+               </prerequisites>
+            </value>
+         </li>
+
+         <li Class="XmlExtensions.PatchOperationSafeAdd">
+            <xpath>Defs/ResearchProjectDef[defName = "VFEC_CraftingBench" or defName = "VFEC_CementMaking" or defName = "VFEC_WoodfiredCrematorium" or defName = "VFEC_TyrianProduction"]</xpath>
+            <safetyDepth>1</safetyDepth>
+            <value>
+               <prerequisites>
+                  <li>RR_BasicCraftingFacilities</li>
+               </prerequisites>
+            </value>
+         </li>
+
+      </operations>
+   </Operation>
+</Patch>

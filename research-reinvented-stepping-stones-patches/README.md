@@ -8,6 +8,7 @@ This is a patch-mod for [@PeteTimesSix's][] [Research Reinvented: Stepping Stone
 
 It modifies some technologies and buildings from the following *other* mods to depend on the 'stepping stone' technologies introduced thereby:
 
+ - [Vanilla Factions Expanded - Classical](https://steamcommunity.com/sharedfiles/filedetails/?id=2787850474)
  - [Vanilla Furniture Expanded - Architect](https://steamcommunity.com/sharedfiles/filedetails/?id=2608762624)
  - [Fish Traps](https://steamcommunity.com/sharedfiles/filedetails/?id=2594468074)
  - [ReGrowth: Core](https://steamcommunity.com/workshop/filedetails/?id=2260097569)
@@ -17,9 +18,9 @@ It modifies some technologies and buildings from the following *other* mods to d
 
  Planned:
 
-- Some subset of [Vanilla Expanded](https://steamcommunity.com/workshop/filedetails/?id=1884025115) mods
-- [Alpha Biomes](https://steamcommunity.com/sharedfiles/filedetails/?id=1841354677)
-- [Dubs Bad Hygiene](https://steamcommunity.com/sharedfiles/filedetails/?id=836308268)
+ - Some subset of [Vanilla Expanded](https://steamcommunity.com/workshop/filedetails/?id=1884025115) mods
+ - [Alpha Biomes](https://steamcommunity.com/sharedfiles/filedetails/?id=1841354677)
+ - [Dubs Bad Hygiene](https://steamcommunity.com/sharedfiles/filedetails/?id=836308268)
 
    [@PeteTimesSix's]: <https://github.com/PeteTimesSix>
    [Research Reinvented: Stepping Stones]: <https://steamcommunity.com/sharedfiles/filedetails/?id=2868389782>
