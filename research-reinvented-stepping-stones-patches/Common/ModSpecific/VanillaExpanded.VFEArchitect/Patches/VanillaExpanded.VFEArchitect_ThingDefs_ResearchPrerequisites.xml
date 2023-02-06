@@ -40,25 +40,21 @@
       <mods>
          <li>Royalty</li>
       </mods>
-      <match Class="PatchOperationSequence">
-         <operations>
-            <Operation Class="XmlExtensions.Conditional">
-               <xpath>Defs/ThingDef[defName = "VFEArch_FineWall"]/researchPrerequisites</xpath>
-               <caseFalse>
-                  <Operation Class="PatchOperationAdd">
-                     <xpath>Defs/ThingDef[defName = "VFEArch_FineWall"]</xpath>
-                     <value>
-                        <researchPrerequisites>
-                           <li>RR_BasicStructures</li>
-                        </researchPrerequisites>
-                     </value>
-                  </Operation>
-                  <!-- /PatchOperationAdd: [defName = "VFEArch_FineWall"] -->
-               </caseFalse>
+      <match Class="XmlExtensions.Conditional">
+         <xpath>Defs/ThingDef[defName = "VFEArch_FineWall"]/researchPrerequisites</xpath>
+         <caseFalse>
+            <Operation Class="PatchOperationAdd">
+               <xpath>Defs/ThingDef[defName = "VFEArch_FineWall"]</xpath>
+               <value>
+                  <researchPrerequisites>
+                     <li>RR_BasicStructures</li>
+                  </researchPrerequisites>
+               </value>
             </Operation>
-            <!-- /XmlExtensions.Conditional: [defName = "VFEArch_FineWall"]/researchPrerequisites -->
-         </operations>
+            <!-- /PatchOperationAdd: [defName = "VFEArch_FineWall"] -->
+         </caseFalse>
       </match>
+      <!-- /XmlExtensions.Conditional: [defName = "VFEArch_FineWall"]/researchPrerequisites -->
    </Operation>
    <!-- /PatchOperationFindMod: Royalty -->
 
