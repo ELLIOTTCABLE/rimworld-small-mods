@@ -32,9 +32,9 @@
       <li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
 
       <!-- Supported, but not required, mods: -->
-      <li>regrowth.botr.core</li>
+      <li>ReGrowth.BOTR.Core</li>
       <li>warlocksforge.fishtraps</li>
-      <li>mlie.insulation</li>
+      <li>Mlie.Insulation</li>
       <li>Owlchemist.WallUtilities</li>
    </loadAfter>
    <description>
