@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+   <!-- Neolithic -->
+
+   <Operation Class="XmlExtensions.Conditional">
+      <xpath>Defs/ThingDef[defName = "VFEArch_LogWall"]/researchPrerequisites</xpath>
+      <caseFalse>
+         <Operation Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "VFEArch_LogWall"]</xpath>
+            <value>
+               <researchPrerequisites>
+                  <li>RR_BasicStructures</li>
+               </researchPrerequisites>
+            </value>
+         </Operation>
+         <!-- /PatchOperationAdd: [defName = "VFEArch_LogWall"] -->
+      </caseFalse>
+   </Operation>
+   <!-- /XmlExtensions.Conditional: [defName = "VFEArch_LogWall"]/researchPrerequisites -->
+
+   <Operation Class="XmlExtensions.Conditional">
+      <xpath>Defs/ThingDef[defName = "VFEArch_HedgeWall"]/researchPrerequisites</xpath>
+      <caseFalse>
+         <Operation Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "VFEArch_HedgeWall"]</xpath>
+            <value>
+               <researchPrerequisites>
+                  <li>RR_Agriculture</li>
+                  <li>RR_BasicStructures</li>
+               </researchPrerequisites>
+            </value>
+         </Operation>
+         <!-- /PatchOperationAdd: [defName = "VFEArch_HedgeWall"] -->
+      </caseFalse>
+   </Operation>
+   <!-- /XmlExtensions.Conditional: [defName = "VFEArch_HedgeWall"]/researchPrerequisites -->
+
+   <Operation Class="PatchOperationFindMod">
+      <mods>
+         <li>Royalty</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+         <operations>
+            <Operation Class="XmlExtensions.Conditional">
+               <xpath>Defs/ThingDef[defName = "VFEArch_FineWall"]/researchPrerequisites</xpath>
+               <caseFalse>
+                  <Operation Class="PatchOperationAdd">
+                     <xpath>Defs/ThingDef[defName = "VFEArch_FineWall"]</xpath>
+                     <value>
+                        <researchPrerequisites>
+                           <li>RR_BasicStructures</li>
+                        </researchPrerequisites>
+                     </value>
+                  </Operation>
+                  <!-- /PatchOperationAdd: [defName = "VFEArch_FineWall"] -->
+               </caseFalse>
+            </Operation>
+            <!-- /XmlExtensions.Conditional: [defName = "VFEArch_FineWall"]/researchPrerequisites -->
+         </operations>
+      </match>
+   </Operation>
+   <!-- /PatchOperationFindMod: Royalty -->
+
+</Patch>

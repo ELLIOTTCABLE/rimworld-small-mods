@@ -8,6 +8,7 @@ This is a patch-mod for [@PeteTimesSix's][] [Research Reinvented: Stepping Stone
 
 It modifies some technologies and buildings from the following *other* mods to depend on the 'stepping stone' technologies introduced thereby:
 
+ - [Vanilla Furniture Expanded - Architect](https://steamcommunity.com/sharedfiles/filedetails/?id=2608762624)
  - [Fish Traps](https://steamcommunity.com/sharedfiles/filedetails/?id=2594468074)
  - [ReGrowth: Core](https://steamcommunity.com/workshop/filedetails/?id=2260097569)
  - [Insulation (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2196454890)
