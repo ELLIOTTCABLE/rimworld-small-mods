@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <XmlExtensions.SettingsMenuDef>
+      <defName>ecResearchReinventedSteppingStonesPatches</defName>
+      <modId>ec.ResearchReinvented.SteppingStones.patches</modId>
+      <label>ec's "Stepping Stones" Patches</label>
+      <settings>
+         <li Class="XmlExtensions.Setting.Text">
+            <text>Un-Limited</text>
+            <font>Medium</font>
+            <anchor>Middle</anchor>
+         </li>
+         <li Class="XmlExtensions.Setting.Checkbox">
+            <key>lockVFEC</key>
+            <label>Lock expensive, alternate 'VFE - Classical' researches behind a unique node</label>
+            <tooltip>VFE - Classical uses a special mechanic by which you're intended to obtain its researches. As an alternative, however, it also provides extremely expensive, but neolithic, entries in the research-tree. If playing with a mod like "Semi-Random Research", this can be very annoying. Enabling this option will lock all of those special research items behind a single "Classical thought" node, allowing you to defer unlocking them (and polluting your Semi-Random Research rolls) until/unless you really need to.</tooltip>
+         </li>
+         <li Class="XmlExtensions.Setting.GapLine"/>
+         <li Class="XmlExtensions.Setting.ResetSettings"/>
+      </settings>
+   </XmlExtensions.SettingsMenuDef>
+
+</Defs>
