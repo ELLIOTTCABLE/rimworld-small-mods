@@ -34,6 +34,7 @@
       <!-- Supported, but not required, mods: -->
       <li>regrowth.botr.core</li>
       <li>warlocksforge.fishtraps</li>
+      <li>mlie.insulation</li>
    </loadAfter>
    <description>
 Patches various mods to depend on PeteTimesSix's "Research Reinvented: Stepping Stones" research-nodes

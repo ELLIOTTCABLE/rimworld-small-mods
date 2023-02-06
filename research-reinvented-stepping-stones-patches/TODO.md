@@ -2,7 +2,7 @@
 
 Assorted:
 [x] neolithic tech "Fish traps" -> Agriculture
-[ ] neolithic tech "Insulation (Biomass)" -> Agriculture, Structures
+[x] neolithic tech "Insulation (Biomass)" -> Agriculture, Structures
 
 ??????:
 [ ] building "Torch lamp"

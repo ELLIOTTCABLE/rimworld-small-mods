@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+   <Operation Class="XmlExtensions.PatchOperationSafeAdd">
+      <xpath>Defs/ResearchProjectDef[defName = "InsulationBiomass"]</xpath>
+      <safetyDepth>1</safetyDepth>
+      <value>
+         <prerequisites>
+            <li>RR_Agriculture</li>
+            <li>RR_BasicStructures</li>
+         </prerequisites>
+      </value>
+   </Operation>
+
+</Patch>
