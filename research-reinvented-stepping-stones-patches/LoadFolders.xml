@@ -3,5 +3,6 @@
    <v1.4>
       <li>Common</li>
       <li IfModActive="regrowth.botr.core">Common/ModSpecific/regrowth.botr.core</li>
+      <li IfModActive="warlocksforge.fishtraps">Common/ModSpecific/warlocksforge.fishtraps</li>
    </v1.4>
 </loadFolders>
