@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-   <li Class="XmlExtensions.PatchOperationSafeAdd">
+   <Operation Class="XmlExtensions.PatchOperationSafeAdd">
       <xpath>
-               Defs/ResearchProjectDef[defName = "RG_MushroomCultivation"
-                  or defName = "RG_BerryCultivation"]
+         Defs/ResearchProjectDef[defName = "RG_MushroomCultivation"
+            or defName = "RG_BerryCultivation"]
       </xpath>
       <safetyDepth>1</safetyDepth>
       <value>
@@ -12,6 +12,6 @@
             <li>RR_Agriculture</li>
          </prerequisites>
       </value>
-   </li>
+   </Operation>
 
 </Patch>
