@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+   <name>ec's "Research Reinvented: Stepping Stones" Patches</name>
+   <author>ELLIOTTCABLE</author>
+   <packageId>ec.ResearchReinvented.SteppingStones.patches</packageId>
+   <supportedVersions>
+      <li>1.4</li>
+   </supportedVersions>
+   <url>https://github.com/ELLIOTTCABLE/rimworld-small-mods/tree/main/research-reinvented-stepping-stones-patches</url>
+   <modDependencies>
+      <li>
+         <packageId>brrainz.harmony</packageId>
+         <displayName>Harmony</displayName>
+         <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      </li>
+      <li>
+         <packageId>imranfish.xmlextensions</packageId>
+         <displayName>XML Extensions</displayName>
+         <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+         <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+      </li>
+      <li>
+         <packageId>PeteTimesSix.ResearchReinvented.SteppingStones</packageId>
+         <displayName>Research Reinvented: Stepping Stones</displayName>
+         <downloadUrl>https://github.com/PeteTimesSix/ResearchReinvented_SteppingStones/releases</downloadUrl>
+         <steamWorkshopUrl>steam://url/CommunityFilePage/2868389782</steamWorkshopUrl>
+      </li>
+   </modDependencies>
+   <loadAfter>
+      <li>brrainz.harmony</li>
+      <li>imranfish.xmlextensions</li>
+      <li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
+
+      <!-- Supported, but not required, mods: -->
+      <li>regrowth.botr.core</li>
+   </loadAfter>
+   <description>
+Patches various mods to depend on PeteTimesSix's "Research Reinvented: Stepping Stones" research-nodes
+   </description>
+</ModMetaData>
