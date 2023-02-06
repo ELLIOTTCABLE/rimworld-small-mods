@@ -27,11 +27,11 @@ Ideology:
 [ ] building "skullspike"
 
 VFE - Architect:
-[ ] building "Log wall"
-[ ] building "Hedge wall"
+[x] building "Log wall"
+[x] building "Hedge wall"
+[x] building "Fine wall"
 [ ] building "Steel bridge"
 [ ] building "Deep water steel bridge"
-[ ] building "Fine wall"
 
 VFE - Farming:
 [ ] building "Planter box"
